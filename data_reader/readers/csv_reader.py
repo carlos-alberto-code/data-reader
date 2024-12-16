@@ -1,5 +1,5 @@
 import pandas as pd
-from src.data_reader.readers.reader_strategy import ReaderStrategy
+from data_reader.readers.reader_strategy import ReaderStrategy
 
 
 class CSVReader(ReaderStrategy):

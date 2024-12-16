@@ -1,4 +1,6 @@
-from readers import CSVReader, ExcelReader, ReaderStrategy
+from data_reader.readers.csv_reader import CSVReader
+from data_reader.readers.excel_reader import ExcelReader
+from data_reader.readers.reader_strategy import ReaderStrategy
 
 
 class _Strategies:
