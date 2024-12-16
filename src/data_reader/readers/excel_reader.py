@@ -1,5 +1,5 @@
 import pandas as pd
-from data_reader.reader_strategy import ReaderStrategy
+from src.data_reader.readers.reader_strategy import ReaderStrategy
 
 
 class ExcelReader(ReaderStrategy):
